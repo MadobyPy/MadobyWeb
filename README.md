@@ -4,7 +4,7 @@
 
 Thanks "Can Cellek" For this Techy Piece Of Art.
 
-Check out his profile [here](https://github.com/excalith)
+Check out his profile [👉 HERE](https://github.com/excalith)
 
 This is an interactive start page for browsers, inspired from my terminal setup.
 
