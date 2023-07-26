@@ -309,13 +309,13 @@ const defaultConfig = {
 						icon: "mdi:chess-rook"
 					},
 					{
-						name: "ChessTale",
+						name: "Tale",
 						url: "https://madobychesstale.github.io",
 						target: "_blank",
 						icon: "mdi:chess-knight"
 					},
 					{
-						name: "ChessCompass",
+						name: "Compass",
 						url: "https://chesscompass.com",
 						target: "_blank",
 						icon: "mdi:chess-bishop"
@@ -377,7 +377,7 @@ const defaultConfig = {
 						icon: "material-symbols:logo-dev"
 					},
 					{
-						name: "Stack Overflow",
+						name: "S.Overflow",
 						url: "https://stackoverflow.com/",
 						target: "_blank",
 						icon: "mdi:stack-overflow"
