@@ -329,7 +329,7 @@ const defaultConfig = {
 				links: [
 					{
 						name: "Nature",
-						url: "https://www.nature.com/",
+						url: "https://www.nature.com/ncomms/",
 						target: "_blank",
 						icon: "material-symbols:science"
 					},
