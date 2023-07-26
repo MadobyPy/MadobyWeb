@@ -166,7 +166,7 @@ const defaultConfig = {
 						icon: "uil:linux"
 					}
 				]
-			}
+			},
 			{
 				title: "Social",
 				color: "violet",
