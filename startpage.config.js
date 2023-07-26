@@ -57,13 +57,13 @@ const defaultConfig = {
 		]
 	},
 	urlLaunch: {
-		target: "_self",
+		target: "_blank",
 		defaultColor: "white",
 		hoverColor: "violet"
 	},
 	search: {
 		default: "https://google.com/search?q=",
-		target: "_self",
+		target: "_blank",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
 			{
@@ -113,52 +113,60 @@ const defaultConfig = {
 					{
 						name: "Portfolio",
 						url: "https://cancellek.com",
+						target: "_blank",
 						icon: "mdi:web"
 					},
 					{
 						name: "Keybase",
 						url: "https://keybase.io/",
+						target: "_blank",
 						icon: "fa-brands:keybase"
 					},
 					{
 						name: "GPT",
 						url: "https://chat.openai.com/",
+						target: "_blank",
 						icon: "simple-icons:openai"
 					},
 					{
 						name: "OCI",
 						url: "https://www.oracle.com/cloud/",
+						target: "_blank",
 						icon: "simple-icons:oracle"
 					}
 				]
 			},
 			{
-				title: "Dev",
-				color: "magenta",
+				title: "Tech",
+				color: "yellow",
 				align: "left",
 				links: [
 					{
-						name: "GitHub",
-						url: "https://github.com",
-						icon: "mdi:github"
+						name: "TechCrunch",
+						url: "https://techcrunch.com/",
+						target: "_blank",
+						icon: "game-icons:techno-heart"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						name: "Verge",
+						url: "https://www.theverge.com/",
+						target: "_blank",
+						icon: "arcticons:verge"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
+						name: "It's Foss",
+						url: "https://itsfoss.com/",
+						target: "_blank",
+						icon: "ri:mastodon-fill"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						name: "9To5 Linux",
+						url: "https://9to5linux.com/",
+						target: "_blank",
+						icon: "uil:linux"
 					}
 				]
-			},
+			}
 			{
 				title: "Social",
 				color: "violet",
@@ -167,21 +175,25 @@ const defaultConfig = {
 					{
 						name: "Twitter",
 						url: "https://twitter.com",
+						target: "_blank",
 						icon: "mdi:twitter"
 					},
 					{
 						name: "Mastodon",
 						url: "https://mastodon.social/",
+						target: "_blank",
 						icon: "ri:mastodon-fill"
 					},
 					{
 						name: "Reddit",
 						url: "https://reddit.com",
+						target: "_blank",
 						icon: "mdi:reddit"
 					},
 					{
 						name: "Polywork",
 						url: "https://polywork.com",
+						target: "_blank",
 						icon: "simple-icons:polywork"
 					}
 				]
@@ -225,52 +237,153 @@ const defaultConfig = {
 					{
 						name: "PopSci",
 						url: "https://popsci.com/",
+						target: "_blank",
 						icon: "material-symbols:science"
 					},
 					{
 						name: "Space",
 						url: "fa6-solid:user-astronaut",
+						target: "_blank",
 						icon: "mdi:reddit"
 					},
 					{
 						name: "NASA",
 						url: "https://blogs.nasa.gov/",
+						target: "_blank",
 						icon: "simple-icons:nasa"
 					},
 					{
 						name: "ESA",
 						url: "https://blogs.esa.int/",
+						target: "_blank",
 						icon: "mdi:black-mesa"
 					}
 				]
 			},
 			{
-				title: "Tech",
-				color: "yellow",
+				title: "Dev",
+				color: "magenta",
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "GitHub",
+						url: "https://github.com",
+						target: "_blank",
+						icon: "mdi:github"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						name: "GitLab",
+						url: "https://gitlab.com",
+						target: "_blank",
+						icon: "ph:gitlab-logo-simple-fill"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
+						name: "Dev.to",
+						url: "https://dev.to",
+						target: "_blank",
+						icon: "material-symbols:logo-dev"
 					},
 					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "Stack Overflow",
+						url: "https://stackoverflow.com/",
+						target: "_blank",
+						icon: "mdi:stack-overflow"
 					}
 				]
-			}
+			},
+			{
+				title: "Chess",
+				color: "cyan",
+				align: "left",
+				links: [
+					{
+						name: "Chess.com",
+						url: "https://chess.com",
+						target: "_blank",
+						icon: "mdi:chess-pawn"
+					},
+					{
+						name: "Lichess",
+						url: "https://lichess.com",
+						target: "_blank",
+						icon: "mdi:chess-rook"
+					},
+					{
+						name: "ChessTale",
+						url: "https://madobychesstale.github.io",
+						target: "_blank",
+						icon: "mdi:chess-knight"
+					},
+					{
+						name: "ChessCompass",
+						url: "https://chesscompass.com",
+						target: "_blank",
+						icon: "mdi:chess-bishop"
+					}
+				]
+			},
+			{
+				title: "Science",
+				color: "blue",
+				align: "left",
+				links: [
+					{
+						name: "PopSci",
+						url: "https://popsci.com/",
+						target: "_blank",
+						icon: "material-symbols:science"
+					},
+					{
+						name: "Space",
+						url: "fa6-solid:user-astronaut",
+						target: "_blank",
+						icon: "mdi:reddit"
+					},
+					{
+						name: "NASA",
+						url: "https://blogs.nasa.gov/",
+						target: "_blank",
+						icon: "simple-icons:nasa"
+					},
+					{
+						name: "ESA",
+						url: "https://blogs.esa.int/",
+						target: "_blank",
+						icon: "mdi:black-mesa"
+					}
+				]
+			},
+			{
+				title: "Dev",
+				color: "magenta",
+				align: "left",
+				links: [
+					{
+						name: "GitHub",
+						url: "https://github.com",
+						target: "_blank",
+						icon: "mdi:github"
+					},
+					{
+						name: "GitLab",
+						url: "https://gitlab.com",
+						target: "_blank",
+						icon: "ph:gitlab-logo-simple-fill"
+					},
+					{
+						name: "Dev.to",
+						url: "https://dev.to",
+						target: "_blank",
+						icon: "material-symbols:logo-dev"
+					},
+					{
+						name: "Stack Overflow",
+						url: "https://stackoverflow.com/",
+						target: "_blank",
+						icon: "mdi:stack-overflow"
+					}
+				]
+			},
 		]
 	}
 }
