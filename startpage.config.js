@@ -323,10 +323,16 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Science",
+				title: "ScienceMags",
 				color: "blue",
 				align: "left",
 				links: [
+					{
+						name: "Nature",
+						url: "https://www.nature.com/",
+						target: "_blank",
+						icon: "mdi:science"
+					},
 					{
 						name: "PopSci",
 						url: "https://popsci.com/",
@@ -334,22 +340,16 @@ const defaultConfig = {
 						icon: "material-symbols:science"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
+						name: "Cell",
+						url: "https://www.cell.com/",
 						target: "_blank",
-						icon: "mdi:reddit"
+						icon: "simple-icons:science"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
+						name: "Sience",
+						url: "https://science.org",
 						target: "_blank",
-						icon: "simple-icons:nasa"
-					},
-					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						target: "_blank",
-						icon: "mdi:black-mesa"
+						icon: "mdi:science"
 					}
 				]
 			},
