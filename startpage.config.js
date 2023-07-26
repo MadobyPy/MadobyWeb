@@ -199,52 +199,52 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Chess",
+				title: "Talks",
 				color: "cyan",
 				align: "left",
 				links: [
 					{
-						name: "Chess.com",
-						url: "https://chess.com",
+						name: "TED",
+						url: "https://www.ted.com/talks",
 						target: "_blank",
-						icon: "mdi:chess-pawn"
+						icon: "mdi:movie-star-outline"
 					},
 					{
-						name: "Lichess",
-						url: "https://lichess.com",
+						name: "TED-Ed",
+						url: "https://ed.ted.com/lessons?direction=desc&sort=featured-position",
 						target: "_blank",
-						icon: "mdi:chess-rook"
+						icon: "mdi:movie-open-settings"
 					},
 					{
-						name: "ChessTale",
-						url: "https://madobychesstale.github.io",
+						name: "TEDx",
+						url: "https://Ted.com/tedx",
 						target: "_blank",
-						icon: "mdi:chess-knight"
+						icon: "mdi:movie-settings-outline"
 					},
 					{
-						name: "ChessCompass",
-						url: "https://chesscompass.com",
+						name: "TED YTB",
+						url: "https://www.youtube.com/results?search_query=TED+Talks",
 						target: "_blank",
-						icon: "mdi:chess-bishop"
+						icon: "mdi:movie-star"
 					}
 				]
 			},
 			{
-				title: "Science",
+				title: "Podcast",
 				color: "blue",
 				align: "left",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
+						name: "G-Podcasts",
+						url: "https://podcasts.google.com/",
 						target: "_blank",
 						icon: "material-symbols:science"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
+						name: "Spotify",
+						url: "https://open.spotify.com/genre/podcasts-page",
 						target: "_blank",
-						icon: "mdi:reddit"
+						icon: "mdi:spotify"
 					},
 					{
 						name: "NASA",
@@ -261,33 +261,33 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Dev",
+				title: "Gaming",
 				color: "magenta",
 				align: "left",
 				links: [
 					{
-						name: "GitHub",
-						url: "https://github.com",
+						name: "Twitch",
+						url: "https://twitch.com",
 						target: "_blank",
 						icon: "mdi:github"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
+						name: "Youtube",
+						url: "https://youtube.com",
 						target: "_blank",
 						icon: "ph:gitlab-logo-simple-fill"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
+						name: "Polygon",
+						url: "https://polygon.com",
 						target: "_blank",
-						icon: "material-symbols:logo-dev"
+						icon: "uil:polygon"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
+						name: "IGN",
+						url: "https://ign.com",
 						target: "_blank",
-						icon: "mdi:stack-overflow"
+						icon: "mdi:currency-sign"
 					}
 				]
 			},
@@ -297,7 +297,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Chess.com",
+						name: "Chess",
 						url: "https://chess.com",
 						target: "_blank",
 						icon: "mdi:chess-pawn"
