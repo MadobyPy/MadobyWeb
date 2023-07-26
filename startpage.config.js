@@ -160,7 +160,7 @@ const defaultConfig = {
 						icon: "ri:mastodon-fill"
 					},
 					{
-						name: "9To5Linux",
+						name: "9To5Lnx",
 						url: "https://9to5linux.com/",
 						target: "_blank",
 						icon: "uil:linux"
@@ -235,7 +235,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "G-Podcast",
+						name: "GPodcast",
 						url: "https://podcasts.google.com/",
 						target: "_blank",
 						icon: "material-symbols:science"
@@ -377,7 +377,7 @@ const defaultConfig = {
 						icon: "material-symbols:logo-dev"
 					},
 					{
-						name: "SOverflow",
+						name: "Overflow",
 						url: "https://stackoverflow.com/",
 						target: "_blank",
 						icon: "mdi:stack-overflow"
