@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "MadobyWeb",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -187,29 +187,33 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Gaming",
+				title: "Chess",
 				color: "cyan",
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Chess.com",
+						url: "https://chess.com",
+						target: "_blank",
+						icon: "mdi:chess-pawn"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "Lichess",
+						url: "https://lichess.com",
+						target: "_blank",
+						icon: "mdi:chess-rook"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						name: "ChessTale",
+						url: "https://madobychesstale.github.io",
+						target: "_blank",
+						icon: "mdi:chess-knight"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "ChessCompass",
+						url: "https://chesscompass.com",
+						target: "_blank",
+						icon: "mdi:chess-bishop"
 					}
 				]
 			},
