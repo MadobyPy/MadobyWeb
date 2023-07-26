@@ -331,25 +331,25 @@ const defaultConfig = {
 						name: "Nature",
 						url: "https://www.nature.com/",
 						target: "_blank",
-						icon: "mdi:science"
+						icon: "material-symbols:science"
 					},
 					{
 						name: "PopSci",
 						url: "https://popsci.com/",
 						target: "_blank",
-						icon: "material-symbols:science"
+						icon: "mdi:black-mesa"
 					},
 					{
 						name: "Cell",
 						url: "https://www.cell.com/",
 						target: "_blank",
-						icon: "simple-icons:science"
+						icon: "material-symbols:science"
 					},
 					{
 						name: "Sience",
 						url: "https://science.org",
 						target: "_blank",
-						icon: "mdi:science"
+						icon: "mdi:black-mesa"
 					}
 				]
 			},
