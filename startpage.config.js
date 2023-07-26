@@ -111,7 +111,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
+						name: "Portf..",
 						url: "https://cancellek.com",
 						target: "_blank",
 						icon: "mdi:web"
@@ -142,7 +142,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
+						name: "Crunch",
 						url: "https://techcrunch.com/",
 						target: "_blank",
 						icon: "game-icons:techno-heart"
@@ -154,13 +154,13 @@ const defaultConfig = {
 						icon: "arcticons:verge"
 					},
 					{
-						name: "It's Foss",
+						name: "It'sFoss",
 						url: "https://itsfoss.com/",
 						target: "_blank",
 						icon: "ri:mastodon-fill"
 					},
 					{
-						name: "9To5 Linux",
+						name: "9To5Linux",
 						url: "https://9to5linux.com/",
 						target: "_blank",
 						icon: "uil:linux"
@@ -235,7 +235,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "G-Podcasts",
+						name: "G-Podcast",
 						url: "https://podcasts.google.com/",
 						target: "_blank",
 						icon: "material-symbols:science"
@@ -377,7 +377,7 @@ const defaultConfig = {
 						icon: "material-symbols:logo-dev"
 					},
 					{
-						name: "S.Overflow",
+						name: "SOverflow",
 						url: "https://stackoverflow.com/",
 						target: "_blank",
 						icon: "mdi:stack-overflow"
