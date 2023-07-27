@@ -29,7 +29,7 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command...",
+		placeholder: "command... (Help)",
 		placeholderColor: "gray",
 		userColor: "green",
 		atColor: "gray",
@@ -78,8 +78,8 @@ const defaultConfig = {
 			},
 			{
 				alias: "b",
-				name: "Brave Search",
-				url: "https://search.brave.com/search?q={}"
+				name: "Bing Search",
+				url: "https://www.bing.com/search?q={}"
 			},
 			{
 				alias: "gh",
@@ -106,33 +106,33 @@ const defaultConfig = {
 	sections: {
 		list: [
 			{
-				title: "General",
+				title: "AI Tools",
 				color: "green",
 				align: "left",
 				links: [
 					{
-						name: "Portf..",
-						url: "https://cancellek.com",
-						target: "_blank",
-						icon: "mdi:web"
-					},
-					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						target: "_blank",
-						icon: "fa-brands:keybase"
-					},
-					{
-						name: "GPT",
+						name: "ChatGPT",
 						url: "https://chat.openai.com/",
 						target: "_blank",
 						icon: "simple-icons:openai"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
+						name: "Bard",
+						url: "https://bard.google.com/",
 						target: "_blank",
-						icon: "simple-icons:oracle"
+						icon: "simple-icons:openai"
+					},
+					{
+						name: "Character",
+						url: "https://beta.character.ai/",
+						target: "_blank",
+						icon: "simple-icons:openai"
+					},
+					{
+						name: "Leonardo",
+						url: "https://app.leonardo.ai/",
+						target: "_blank",
+						icon: "simple-icons:openai"
 					}
 				]
 			},
