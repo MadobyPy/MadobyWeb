@@ -323,7 +323,7 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "ScienceMags",
+				title: "Science",
 				color: "blue",
 				align: "left",
 				links: [
