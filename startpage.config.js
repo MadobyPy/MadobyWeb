@@ -29,7 +29,7 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command... (Help)",
+		placeholder: "command... (help)",
 		placeholderColor: "gray",
 		userColor: "green",
 		atColor: "gray",
@@ -68,7 +68,7 @@ const defaultConfig = {
 		shortcuts: [
 			{
 				alias: "g",
-				name: "Google Search",
+				name: "Google Search ... 'Example: g what do cats eat?'",
 				url: "https://google.com/search?q={}"
 			},
 			{
