@@ -173,7 +173,7 @@ const defaultConfig = {
 						icon: "simple-icons:openai"
 					},
 					{
-						name: "Character",
+						name: "Char...",
 						url: "https://beta.character.ai/",
 						target: "_blank",
 						icon: "simple-icons:openai"
