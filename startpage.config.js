@@ -303,7 +303,7 @@ const defaultConfig = {
 						icon: "mdi:spotify"
 					},
 					{
-						name: "Fr Facile",
+						name: "FrFacile",
 						url: "https://www.podcastfrancaisfacile.com/",
 						target: "_blank",
 						icon: "material-symbols:science"
