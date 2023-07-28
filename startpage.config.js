@@ -100,7 +100,57 @@ const defaultConfig = {
 				alias: "w",
 				name: "Wikipedia Search",
 				url: "https://en.wikipedia.org/wiki/{}"
-			}
+			},
+			{
+				alias: "bf",
+				name: "BFlix Search",
+				url: "https://bflix.to/filter?keyword={}"
+			},
+			{
+				alias: "y",
+				name: "Youtube Search",
+				url: "http://www.youtube.com/results?search_query={}"
+			},
+			{
+				alias: "j",
+				name: "Jumia Search",
+				url: "https://www.jumia.ma/catalog/?q={}"
+			},
+			{
+				alias: "a",
+				name: "Archive.org Search",
+				url: "https://archive.org/search?query={}"
+			},
+			{
+				alias: "z",
+				name: "ZLibrary Search",
+				url: "https://zlibrary.to/top-{}-books"
+			},
+			{
+				alias: "pdf",
+				name: "PDF Drive Search",
+				url: "https://www.pdfdrive.com/search?q={}"
+			},
+			{
+				alias: "dp",
+				name: "D PDF Search",
+				url: "https://d-pdf.com/book/search?q={}"
+			},
+			{
+				alias: "gb",
+				name: "G-Books Search",
+				url: "https://www.google.com/search?tbm=bks&hl=en&q={}"
+			},
+			{
+				alias: "gm",
+				name: "G-Maps Search",
+				url: "https://maps.google.com/maps/place/{}"
+			},
+			{
+				alias: "sp",
+				name: "Spotify Search",
+				url: "https://open.spotify.com/search/{}"
+			},
 		]
 	},
 	sections: {
@@ -137,33 +187,33 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Tech",
-				color: "yellow",
+				title: "Chess",
+				color: "cyan",
 				align: "left",
 				links: [
 					{
-						name: "Crunch",
-						url: "https://techcrunch.com/",
+						name: "Chess",
+						url: "https://chess.com",
 						target: "_blank",
-						icon: "game-icons:techno-heart"
+						icon: "mdi:chess-pawn"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
+						name: "Lichess",
+						url: "https://lichess.com",
 						target: "_blank",
-						icon: "arcticons:verge"
+						icon: "mdi:chess-rook"
 					},
 					{
-						name: "It'sFoss",
-						url: "https://itsfoss.com/",
+						name: "Tale",
+						url: "https://madobychesstale.github.io",
 						target: "_blank",
-						icon: "ri:mastodon-fill"
+						icon: "mdi:chess-knight"
 					},
 					{
-						name: "9To5Lnx",
-						url: "https://9to5linux.com/",
+						name: "Compass",
+						url: "https://chesscompass.com",
 						target: "_blank",
-						icon: "uil:linux"
+						icon: "mdi:chess-bishop"
 					}
 				]
 			},
@@ -235,6 +285,12 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
+						name: "YTB Pod",
+						url: "https://www.youtube.com/results?search_query=Podcast",
+						target: "_blank",
+						icon: "mdi:spotify"
+					},
+					{
 						name: "GPodcast",
 						url: "https://podcasts.google.com/",
 						target: "_blank",
@@ -247,16 +303,10 @@ const defaultConfig = {
 						icon: "mdi:spotify"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
+						name: "Fr Facile",
+						url: "https://www.podcastfrancaisfacile.com/",
 						target: "_blank",
-						icon: "simple-icons:nasa"
-					},
-					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						target: "_blank",
-						icon: "mdi:black-mesa"
+						icon: "material-symbols:science"
 					}
 				]
 			},
@@ -292,33 +342,33 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Chess",
-				color: "cyan",
+				title: "Tech",
+				color: "yellow",
 				align: "left",
 				links: [
 					{
-						name: "Chess",
-						url: "https://chess.com",
+						name: "Crunch",
+						url: "https://techcrunch.com/",
 						target: "_blank",
-						icon: "mdi:chess-pawn"
+						icon: "game-icons:techno-heart"
 					},
 					{
-						name: "Lichess",
-						url: "https://lichess.com",
+						name: "Verge",
+						url: "https://www.theverge.com/",
 						target: "_blank",
-						icon: "mdi:chess-rook"
+						icon: "arcticons:verge"
 					},
 					{
-						name: "Tale",
-						url: "https://madobychesstale.github.io",
+						name: "It'sFoss",
+						url: "https://itsfoss.com/",
 						target: "_blank",
-						icon: "mdi:chess-knight"
+						icon: "ri:mastodon-fill"
 					},
 					{
-						name: "Compass",
-						url: "https://chesscompass.com",
+						name: "9To5Lnx",
+						url: "https://9to5linux.com/",
 						target: "_blank",
-						icon: "mdi:chess-bishop"
+						icon: "uil:linux"
 					}
 				]
 			},
