@@ -73,82 +73,82 @@ const defaultConfig = {
 			},
 			{
 				alias: "d",
-				name: "DuckDuckGo Search",
+				name: "DuckDuckGo Search ...",
 				url: "https://duckduckgo.com/?q={}"
 			},
 			{
 				alias: "b",
-				name: "Bing Search",
+				name: "Bing Search ...",
 				url: "https://www.bing.com/search?q={}"
 			},
 			{
 				alias: "gh",
-				name: "Github Search",
+				name: "Github Search ...",
 				url: "https://github.com/search?q={}"
 			},
 			{
 				alias: "s",
-				name: "Stack Overflow Search",
+				name: "Stack Overflow Search ...",
 				url: "https://stackoverflow.com/search?q={}"
 			},
 			{
 				alias: "r",
-				name: "Subreddit Search",
+				name: "Subreddit Search ...",
 				url: "https://reddit.com/r/{}"
 			},
 			{
 				alias: "w",
-				name: "Wikipedia Search",
+				name: "Wikipedia Search ...",
 				url: "https://en.wikipedia.org/wiki/{}"
 			},
 			{
 				alias: "bf",
-				name: "BFlix Search",
+				name: "BFlix Search ...",
 				url: "https://bflix.to/filter?keyword={}"
 			},
 			{
 				alias: "y",
-				name: "Youtube Search",
+				name: "Youtube Search ...",
 				url: "http://www.youtube.com/results?search_query={}"
 			},
 			{
 				alias: "j",
-				name: "Jumia Search",
+				name: "Jumia Search ...",
 				url: "https://www.jumia.ma/catalog/?q={}"
 			},
 			{
 				alias: "a",
-				name: "Archive.org Search",
+				name: "Archive.org Search ...",
 				url: "https://archive.org/search?query={}"
 			},
 			{
 				alias: "z",
-				name: "ZLibrary Search",
+				name: "ZLibrary Search ...",
 				url: "https://zlibrary.to/top-{}-books"
 			},
 			{
 				alias: "pdf",
-				name: "PDF Drive Search",
+				name: "PDF Drive Search ...",
 				url: "https://www.pdfdrive.com/search?q={}"
 			},
 			{
 				alias: "dp",
-				name: "D PDF Search",
+				name: "D PDF Search ...",
 				url: "https://d-pdf.com/book/search?q={}"
 			},
 			{
 				alias: "gb",
-				name: "G-Books Search",
+				name: "G-Books Search ...",
 				url: "https://www.google.com/search?tbm=bks&hl=en&q={}"
 			},
 			{
 				alias: "gm",
-				name: "G-Maps Search",
+				name: "G-Maps Search ...",
 				url: "https://maps.google.com/maps/place/{}"
 			},
 			{
 				alias: "sp",
-				name: "Spotify Search",
+				name: "Spotify Search ...",
 				url: "https://open.spotify.com/search/{}"
 			},
 		]
