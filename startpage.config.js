@@ -68,7 +68,7 @@ const defaultConfig = {
 		shortcuts: [
 			{
 				alias: "g",
-				name: "Google Search ... 'Example: g what do cats eat?'",
+				name: "Google Search ... (Example: g what do cats eat?)",
 				url: "https://google.com/search?q={}"
 			},
 			{
