@@ -30,7 +30,7 @@ function fallbackRender({ error, resetErrorBoundary }) {
 							stored in localStorage. Please refer to{" "}
 							<a
 								className="underline"
-								href="https://github.com/excalith/excalith-start-page/wiki/Troubleshooting">
+								href="https://github.com/MadobyPy/MadobyWeb/wiki/Troubleshooting">
 								troubleshooting
 							</a>{" "}
 							page for more information about how to fix this, or click the button
@@ -49,7 +49,7 @@ function fallbackRender({ error, resetErrorBoundary }) {
 							This is an unexpected error. Please refer to{" "}
 							<a
 								className="underline"
-								href="https://github.com/excalith/excalith-start-page/wiki/Troubleshooting">
+								href="https://github.com/MadobyPy/MadobyWeb/wiki/Troubleshooting">
 								troubleshooting
 							</a>{" "}
 							possible solutions.
@@ -58,7 +58,7 @@ function fallbackRender({ error, resetErrorBoundary }) {
 							If nothing helps, please report this issue on{" "}
 							<a
 								className="underline"
-								href="https://github.com/excalith/excalith-start-page/issues/new?assignees=excalith&labels=&template=bug-report.md&title=%5BBUG%5D+">
+								href="https://github.com/MadobyPy/MadobyWeb/issues/new?assignees=excalith&labels=&template=bug-report.md&title=%5BBUG%5D+">
 								issues
 							</a>{" "}
 							by filling out the form. Don't forget to include the error message and
