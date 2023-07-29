@@ -107,6 +107,11 @@ const defaultConfig = {
 				url: "https://bflix.to/filter?keyword={}"
 			},
 			{
+				alias: "bf",
+				name: "SFlix Search ...",
+				url: "https://sflix.to/search/{}"
+			},
+			{
 				alias: "y",
 				name: "Youtube Search ...",
 				url: "http://www.youtube.com/results?search_query={}"
