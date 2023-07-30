@@ -29,7 +29,7 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command... (help)",
+		placeholder: "command... (Ex: help)",
 		placeholderColor: "gray",
 		userColor: "green",
 		atColor: "gray",
