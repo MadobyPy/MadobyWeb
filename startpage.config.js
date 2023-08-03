@@ -204,7 +204,7 @@ const defaultConfig = {
 					},
 					{
 						name: "Lichess",
-						url: "https://lichess.com",
+						url: "https://lichess.org",
 						target: "_blank",
 						icon: "mdi:chess-rook"
 					},
